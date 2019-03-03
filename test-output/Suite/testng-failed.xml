@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.ActitimeTrial.TestrCases.TC_CreateCustomer_002">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="createCustomer"/>
+        </methods>
+      </class> <!-- com.ActitimeTrial.TestrCases.TC_CreateCustomer_002 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
